@@ -1,0 +1,177 @@
+.page-container {
+    min-height: calc(100vh - 70px);
+
+    padding: 50px 6%;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(168, 85, 247, 0.08),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            rgba(0, 229, 255, 0.06),
+            transparent 30%
+        );
+}
+
+.page-container h1 {
+    margin-bottom: 30px;
+
+    color: white;
+
+    font-size: 38px;
+
+    text-shadow:
+        0 0 12px rgba(168, 85, 247, 0.7);
+}
+
+
+/* TABLE */
+
+.neon-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    overflow: hidden;
+
+    background: rgba(15, 15, 32, 0.75);
+
+    border: 1px solid rgba(168, 85, 247, 0.3);
+
+    box-shadow:
+        0 0 25px rgba(168, 85, 247, 0.08);
+}
+
+.neon-table th {
+    padding: 16px;
+
+    text-align: left;
+
+    color: #00e5ff;
+
+    background: rgba(168, 85, 247, 0.12);
+
+    border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+.neon-table td {
+    padding: 15px;
+
+    color: #c4c4da;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.neon-table tr {
+    transition: 0.2s;
+}
+
+.neon-table tr:hover {
+    background: rgba(168, 85, 247, 0.08);
+}
+
+
+/* GLASS CARDS */
+
+.glass-card {
+    padding: 25px;
+
+    border-radius: 18px;
+
+    background: rgba(18, 18, 38, 0.7);
+
+    border: 1px solid rgba(168, 85, 247, 0.3);
+
+    backdrop-filter: blur(15px);
+
+    transition: 0.3s;
+}
+
+.glass-card:hover {
+    border-color: #00e5ff;
+
+    box-shadow:
+        0 0 20px rgba(0, 229, 255, 0.15);
+}
+
+
+/* BUTTONS */
+
+.neon-btn {
+    padding: 11px 20px;
+
+    border: 1px solid rgba(168, 85, 247, 0.5);
+
+    border-radius: 8px;
+
+    color: white;
+
+    background: linear-gradient(
+        90deg,
+        #7c3aed,
+        #a855f7
+    );
+
+    box-shadow:
+        0 0 12px rgba(168, 85, 247, 0.4);
+
+    transition: 0.3s;
+}
+
+.neon-btn:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 15px #a855f7,
+        0 0 30px rgba(168, 85, 247, 0.4);
+}
+
+
+/* INPUTS */
+
+.neon-input {
+    width: 100%;
+
+    padding: 13px 15px;
+
+    margin: 8px 0;
+
+    color: white;
+
+    background: rgba(5, 5, 15, 0.8);
+
+    border: 1px solid rgba(168, 85, 247, 0.35);
+
+    border-radius: 8px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.neon-input:focus {
+    border-color: #00e5ff;
+
+    box-shadow:
+        0 0 10px rgba(0, 229, 255, 0.3);
+}
+
+
+/* STATUS */
+
+.status-success {
+    color: #00ffb3;
+
+    text-shadow:
+        0 0 8px rgba(0, 255, 179, 0.6);
+}
+
+.status-danger {
+    color: #ff4d8d;
+
+    text-shadow:
+        0 0 8px rgba(255, 77, 141, 0.5);
+}

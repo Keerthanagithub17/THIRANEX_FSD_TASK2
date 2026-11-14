@@ -1,0 +1,27 @@
+.theatre-page{
+
+    padding:40px;
+
+}
+
+
+.theatre-page h1{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+
+.theatre-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:30px;
+
+}

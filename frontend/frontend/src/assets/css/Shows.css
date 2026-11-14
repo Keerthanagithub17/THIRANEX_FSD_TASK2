@@ -1,0 +1,27 @@
+.shows-page{
+
+    padding:40px;
+
+}
+
+
+.shows-page h1{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+
+.show-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
